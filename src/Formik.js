@@ -4,6 +4,7 @@ import YupValidation from "./Formik/3-YupValidation";
 import ReduceBoilerplate from "./Formik/4-ReduceBoilerplate";
 import FormikComponent from "./Formik/5-FormikComponent";
 import FieldRevisited from "./Formik/6-FieldRevisited";
+import CustomErrMsg from "./Formik/7-CustomErrMEsg";
 
 function Formik() {
   return (
@@ -29,7 +30,10 @@ function Formik() {
        {/* <FormikComponent/> */}
 
        {/* Field Revisited */}
-       <FieldRevisited/>
+       {/* <FieldRevisited/> */}
+
+       {/* Custom ErrorMessage */}
+       <CustomErrMsg/>
 
     </>
 
